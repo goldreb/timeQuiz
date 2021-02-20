@@ -1,5 +1,5 @@
 # Build a Coding Quiz 
-![Coding Quiz](assets/images/codingQfront.jpg)
+![Coding Quiz](assets/images/codingQfront.JPG)
 
 # Getting Started
 This is a homework for University of Oregon Bootcamp.
@@ -11,15 +11,15 @@ It emphasize the use of javascript and DOM manipulations.
 There are 5 questions. You will choose which is the correct answer.
 When you answer wrong, the timer will deduct 10 to your time.
 
-![Questions](assets/images/questions.jpg)
+![Questions](assets/images/questions.JPG)
 
 Once you are done with the quiz, you will be asks to put your initial so it can  be recorded in the high scores.
 
-![Record Initials](assets/images/initials.jpg)
+![Record Initials](assets/images/initials.JPG)
 
 The high score is based on how fast or quickly you can answer. 
 
-![High Scores](assets/images/highscore.jpg)
+![High Scores](assets/images/highscore.JPG)
 
 
 ## Homework Criteria
