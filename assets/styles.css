@@ -1,0 +1,168 @@
+  
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 20px 0 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #0a4d5f;
+}
+
+.hide {
+    display: none;
+}
+
+.question-choices {
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    align-content: center;
+    margin: 25px 350px 0 450px;
+}
+
+#questions {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    font-style: bold;
+}
+
+#choices {
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+    margin-top: 15px;
+}
+
+.choices {
+    display: flex;
+    align-items: center;
+    background-color: #276678;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+    width: 200px;
+    height: 20px;
+    margin: 10px 0 10px 0;
+
+}
+
+.choices:hover {
+    background-color: #276678;
+}
+
+#question-answer {
+    text-align: left;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.response {
+    border-top: 3px solid grey;
+}
+
+.btn {
+    background-color:#276678;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 15px;
+    width: 200px;
+    height: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color:  #276678;
+    border-radius: 10px;
+}
+
+.submit-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.submit-form h3 {
+    margin: 5px 0 0 0;
+}
+
+.user-input {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 10px 0 10px;
+    max-height: 25px;
+}
+
+.submit-button {
+    margin-top: 0px;
+}
+.loss-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.highscore-wrapper {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+}
+
+#highscores {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    font-style: bold;
+}
+
+ol {
+    padding-left: 0px;
+    max-height: 400px;
+    overflow: auto;
+}
+  
+li {
+    padding: 5px;
+    list-style: decimal inside none;
+}
+
+li:nth-child(odd) {
+    background-color: #d3e0ea;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.high {
+    margin: 10px 5px 10px 5px;
+}
